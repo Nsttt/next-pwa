@@ -38,7 +38,7 @@ export default function App() {
         <Webcam
           ref={webcamRef}
           screenshotFormat="image/webp"
-          // videoConstraints={{ facingMode: { exact: "environment" } }}
+          videoConstraints={{ facingMode: { exact: "environment" } }}
         />
       ) : null}
       <div>
